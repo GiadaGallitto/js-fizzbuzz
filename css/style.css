@@ -6,7 +6,21 @@ div#container{
 div.box{
     width: calc((100% / 10) - 2rem);
     height: 100px;
-    background-color: blue;
     color: white;
     margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red-fizz{
+    background-color: red;
+}
+
+.blue-buzz{
+    background-color: blue;
+}
+
+.green-fb{
+    background-color: green;
 }
