@@ -1,0 +1,12 @@
+div#container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.box{
+    width: calc((100% / 10) - 2rem);
+    height: 100px;
+    background-color: blue;
+    color: white;
+    margin: 1rem;
+}
