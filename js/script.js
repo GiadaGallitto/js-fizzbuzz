@@ -12,7 +12,8 @@ for (let index = 1; index <= 100; index++ ) {
     
     if(index % 15 === 0){
         element = fizzBuzzElement;
-        
+        const divElement = document.createElement("div");
+        divElement.append(fizzBuzzElement);
     } else if(index % 5 === 0){
         element = buzzElement;
         
@@ -21,6 +22,6 @@ for (let index = 1; index <= 100; index++ ) {
     }
     
     containerElement.append(element);
-    
+
     console.log(element)
 }
