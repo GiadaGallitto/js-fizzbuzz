@@ -15,16 +15,19 @@ for (let index = 1; index <= 100; index++ ) {
         element = fizzBuzzElement;
         divElement.classList.add("box", "green-fb");
         divElement.append(fizzBuzzElement);
-
+        
     } else if(index % 5 === 0){
         element = buzzElement;
         divElement.classList.add("box", "blue-buzz");
         divElement.append(buzzElement);
-
+        
     } else if(index % 3 === 0){
         element = fizzElement;
         divElement.classList.add("box", "red-fizz");
         divElement.append(fizzElement);
+    } else{
+        divElement.classList.add("box", "orange-number");
+        divElement.innerHTML = index;
     }
     
     containerElement.append(divElement);

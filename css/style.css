@@ -13,6 +13,11 @@ div.box{
     align-items: center;
 }
 
+.orange-number{
+    background-color: orange;
+    color: white;
+}
+
 .red-fizz{
     background-color: red;
 }
