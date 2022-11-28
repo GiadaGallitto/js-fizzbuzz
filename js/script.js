@@ -26,8 +26,10 @@ for (let index = 1; index <= 100; index++ ) {
         divElement.classList.add("box", "red-fizz");
         divElement.append(fizzElement);
     } else{
+        // Ho creato un else solo per il caso in cui index non sia divisibile per gli altri tre valori, dando anche a questo
+        // delle caratteristiche e ho usato append per mettere index (funziona solo se gli diamo un else a parte)
         divElement.classList.add("box", "orange-number");
-        divElement.innerHTML = index;
+        divElement.append(index);
     }
     
     containerElement.append(divElement);
